@@ -683,7 +683,7 @@
         "uuid": "c778f974-67ff-4a87-97d2-83ab16b1ed92"
       }
     ],
-    "used_designators": "C1-17,9Volt1,J1,J3-7,K1-3,K6,L1-2,18Volt1,TTL1,JP1-5,R1-21,RSHUNT1,Q1-2,U1-8,D1-6,12Volt1,18V1,#PWR1-36,BT1,9V1,12V1,SOLAR1",
+    "used_designators": "U1-8,D1-6,Q1-2,R1-21,RSHUNT1,JP1-5,SOLAR1,12V1,9V1,BT1,#PWR1-36,18V1,12Volt1,9Volt1,C1-17,J1,J3-7,K1-3,K6,TTL1,L1-2,18Volt1",
     "variants": []
   },
   "sheets": [

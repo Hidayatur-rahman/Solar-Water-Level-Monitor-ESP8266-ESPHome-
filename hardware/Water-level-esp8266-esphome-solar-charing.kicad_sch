@@ -5467,12 +5467,6 @@
 		(uuid "26db3512-0845-4d2c-b7c1-d2cc48c84e6c")
 	)
 	(junction
-		(at 60.452 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "393bc1b8-d199-40fd-b93c-b50929d698b5")
-	)
-	(junction
 		(at 44.704 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5641,12 +5635,6 @@
 		(uuid "c8338d7e-fe24-47d3-8dee-b8bf700e4a62")
 	)
 	(junction
-		(at 70.612 184.912)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c93443ad-bd05-4574-82c8-0ee0811be05e")
-	)
-	(junction
 		(at 215.9 75.184)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5681,16 +5669,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc6f3a9e-64df-4e83-8c2c-a85d987e5a74")
-	)
-	(wire
-		(pts
-			(xy 60.452 170.18) (xy 60.452 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001d4c1f-cbab-4a0d-86c9-b2db5f42580d")
 	)
 	(wire
 		(pts
@@ -5904,7 +5882,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.546 160.02) (xy 60.452 160.02)
+			(xy 50.546 160.02) (xy 76.454 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6231,16 +6209,6 @@
 			(type default)
 		)
 		(uuid "362492b5-91ae-4082-b180-46f1e2a8d19f")
-	)
-	(wire
-		(pts
-			(xy 60.452 160.02) (xy 76.454 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "370b0985-e91a-4f5f-890d-7cc43676e994")
 	)
 	(wire
 		(pts
@@ -7394,16 +7362,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.452 184.912) (xy 70.612 184.912)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc543b66-8b7c-4974-bf4e-88c26944ba1e")
-	)
-	(wire
-		(pts
 			(xy 220.98 82.804) (xy 215.9 82.804)
 		)
 		(stroke
@@ -7791,16 +7749,6 @@
 			(type default)
 		)
 		(uuid "ebb00c89-bc1b-4d23-bcc7-8b3a48e8a7f4")
-	)
-	(wire
-		(pts
-			(xy 60.452 177.8) (xy 60.452 184.912)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef3ebfe9-6262-48eb-852f-4c09851f5571")
 	)
 	(wire
 		(pts
@@ -9064,7 +9012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "33K"
 			(at 76.708 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9145,7 +9093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "177bc3ac-e04b-4101-84a5-6f6d3c7cf830")
-		(property "Reference" "12V2"
+		(property "Reference" "9V2"
 			(at 72.39 165.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9210,7 +9158,7 @@
 		(instances
 			(project "Water-level-esp8266-esphome-solar-charing"
 				(path "/c778f974-67ff-4a87-97d2-83ab16b1ed92"
-					(reference "12V2")
+					(reference "9V2")
 					(unit 1)
 				)
 			)
@@ -10378,7 +10326,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "43K"
+		(property "Value" "39K"
 			(at 72.136 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,7 +11031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b66ed65-9490-4760-afdf-29bc00a1624f")
-		(property "Reference" "18V3"
+		(property "Reference" "12V3"
 			(at 79.248 165.862 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,7 +11096,7 @@
 		(instances
 			(project "Water-level-esp8266-esphome-solar-charing"
 				(path "/c778f974-67ff-4a87-97d2-83ab16b1ed92"
-					(reference "18V3")
+					(reference "12V3")
 					(unit 1)
 				)
 			)
@@ -13034,7 +12982,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fe2f980-1f41-4a7d-be3d-df16c63399dc")
-		(property "Reference" "9V1"
+		(property "Reference" "6V1"
 			(at 67.31 165.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13099,7 +13047,7 @@
 		(instances
 			(project "Water-level-esp8266-esphome-solar-charing"
 				(path "/c778f974-67ff-4a87-97d2-83ab16b1ed92"
-					(reference "9V1")
+					(reference "6V1")
 					(unit 1)
 				)
 			)
@@ -17131,98 +17079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 60.452 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f7127cd6-7f0a-4c81-972c-1b097c120cfd")
-		(property "Reference" "R17"
-			(at 61.976 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56K"
-			(at 61.976 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 58.674 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.452 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.452 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 60.452 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3989e319-134e-4ee5-b4cc-9ad7a4c62873")
-		)
-		(pin "1"
-			(uuid "3cbba947-803a-4459-98b2-afa7ef7be173")
-		)
-		(instances
-			(project "Water-level-esp8266-esphome-solar-charing"
-				(path "/c778f974-67ff-4a87-97d2-83ab16b1ed92"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 108.204 124.46 90)
 		(unit 1)
@@ -17341,7 +17197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "68K"
 			(at 65.786 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
