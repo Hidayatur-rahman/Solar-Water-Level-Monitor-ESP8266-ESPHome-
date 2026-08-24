@@ -13,8 +13,11 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 - **ESPHome integration** — no custom firmware needed, works directly with Home Assistant
 
 ## Hardware Overview
-<img width="500" height="380" alt="20260731_152506" src="https://github.com/user-attachments/assets/9a2e9e80-932f-4eb9-9aea-858a7e09985a" /> <img width="500" height="380" alt="20260823_192953" src="https://github.com/user-attachments/assets/2a5e3974-9380-4a58-840c-a5de39bf9059" />
-<img width="1281" height="648" alt="Screenshot_20260823_230358" src="https://github.com/user-attachments/assets/39fdddce-35b8-4192-9b0d-a5c333d85851" />
+<img width="4000" height="2666" alt="20260731_152506" src="https://github.com/user-attachments/assets/2ccba99c-d3e1-437a-82a4-d2979a8bdb8b" />
+<img width="3000" height="2000" alt="20260820_002813" src="https://github.com/user-attachments/assets/9f89b55c-0cc8-460e-b6bf-4aba36083646" />
+<img width="3000" height="2000" alt="20260823_192953" src="https://github.com/user-attachments/assets/8ba35884-39f4-4ec2-9a01-51f93df22cbd" />
+<img width="3000" height="2000" alt="20260823_193008" src="https://github.com/user-attachments/assets/843db635-9908-476a-9588-5edd97bc4595" />
+<img width="1281" height="648" alt="Screenshot_20260823_230358" src="https://github.com/user-attachments/assets/f28f9217-f35e-40dd-9a64-fb1d5287de30" />
 
 | Block | Component | Notes |
 |---|---|---|
