@@ -39,7 +39,7 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 ## Solar Panel Voltage Selection
 
 The CN3791 MPPT tracking voltage is set by closing one solder jumper on the board.
-| Panel    | Target MPPT |   R3 |      R4 |       VMPPT |
+| Panel    | Target MPPT | R18  |         |       VMPPT |
 | -------- | ----------: | ---: | ------: | ----------: |
 | **6 V**  |      ~5,0 V | 200k | **68k** |  **4,75 V** |
 | **9 V**  |      ~8,0 V | 200k | **39k** |  **7,38 V** |
