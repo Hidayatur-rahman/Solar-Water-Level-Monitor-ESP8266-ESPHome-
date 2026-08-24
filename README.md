@@ -13,7 +13,7 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 - **ESPHome integration** — no custom firmware needed, works directly with Home Assistant
 
 ## Hardware Overview
-<img width="500" height="300" alt="20260731_152506" src="https://github.com/user-attachments/assets/9a2e9e80-932f-4eb9-9aea-858a7e09985a" /> <img width="500" height="300" alt="20260823_192953" src="https://github.com/user-attachments/assets/2a5e3974-9380-4a58-840c-a5de39bf9059" />
+<img width="500" height="360" alt="20260731_152506" src="https://github.com/user-attachments/assets/9a2e9e80-932f-4eb9-9aea-858a7e09985a" /> <img width="500" height="360" alt="20260823_192953" src="https://github.com/user-attachments/assets/2a5e3974-9380-4a58-840c-a5de39bf9059" />
 <img width="1281" height="648" alt="Screenshot_20260823_230358" src="https://github.com/user-attachments/assets/39fdddce-35b8-4192-9b0d-a5c333d85851" />
 
 | Block | Component | Notes |
