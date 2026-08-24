@@ -5,7 +5,7 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 ## Features
 
 - **Water level sensing** using an HC-SR04 ultrasonic distance sensor
-- **Solar MPPT charging** via CN3791, with jumper-selectable input voltage (6V / 9V / 12V / 18V)
+- **Solar MPPT charging** via CN3791, with jumper-selectable input voltage (6V / 9V / 12V)
 - **Battery current & voltage monitoring** using an INA219 sensor
 - **1S Li-ion protection** (over-charge / over-discharge / over-current) using DW01A + FS8205A
 - **5V boost converter** (MT3608) to power the ESP8266 and sensors from a single Li-ion cell
@@ -13,11 +13,8 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 - **ESPHome integration** — no custom firmware needed, works directly with Home Assistant
 
 ## Hardware Overview
-<img width="500" height="375" alt="20260731_152506" src="https://github.com/user-attachments/assets/9a2e9e80-932f-4eb9-9aea-858a7e09985a" /> <img width="500" height="375" alt="20260823_192953" src="https://github.com/user-attachments/assets/2a5e3974-9380-4a58-840c-a5de39bf9059" />
+<img width="500" height="400" alt="20260731_152506" src="https://github.com/user-attachments/assets/9a2e9e80-932f-4eb9-9aea-858a7e09985a" /> <img width="500" height="400" alt="20260823_192953" src="https://github.com/user-attachments/assets/2a5e3974-9380-4a58-840c-a5de39bf9059" />
 <img width="1281" height="648" alt="Screenshot_20260823_230358" src="https://github.com/user-attachments/assets/39fdddce-35b8-4192-9b0d-a5c333d85851" />
-
-
-
 
 | Block | Component | Notes |
 |---|---|---|
@@ -25,7 +22,7 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 | Water sensor | HC-SR04 | 5V supply, echo signal stepped down to 3.3V via voltage divider |
 | Current/voltage sensor | INA219 | I2C, monitors battery current (charge & discharge) |
 | Boost converter | MT3608 | Steps battery voltage (3.0–4.2V) up to 5V |
-| Solar charger | CN3791 | MPPT buck charger, up to 4A, input jumper-selectable for 6V/9V/12V/18V panels |
+| Solar charger | CN3791 | MPPT buck charger, up to 4A, input jumper-selectable for 6V/9V/12V panels |
 | Battery protection | DW01A + FS8205A | Standard 1S Li-ion protection circuit |
 | Battery | 1x 18650 Li-ion | Not included on the board |
 
@@ -41,14 +38,12 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 
 ## Solar Panel Voltage Selection
 
-The CN3791 MPPT tracking voltage is set by closing one solder jumper on the board. Leave all jumpers open for the 6V default.
-
-| Panel voltage | Jumper to close |
-|---|---|
-| 6V (default) | none |
-| 9V | JP (9V) |
-| 12V | JP (12V) |
-| 18V | JP (18V) |
+The CN3791 MPPT tracking voltage is set by closing one solder jumper on the board.
+| Panel    | Target MPPT |   R3 |      R4 |       VMPPT |
+| -------- | ----------: | ---: | ------: | ----------: |
+| **6 V**  |      ~5,0 V | 200k | **68k** |  **4,75 V** |
+| **9 V**  |      ~8,0 V | 200k | **39k** |  **7,38 V** |
+| **12 V** |     ~10,2 V | 200k | **33k** |  **8,50 V** |
 
 > Only close **one** jumper at a time.
 
