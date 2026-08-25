@@ -14,7 +14,6 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 
 ## Hardware Overview
 <img width="4000" height="2666" alt="20260731_152506" src="https://github.com/user-attachments/assets/2ccba99c-d3e1-437a-82a4-d2979a8bdb8b" />
-<img width="300" height="200" alt="20260820_002813" src="https://github.com/user-attachments/assets/9f89b55c-0cc8-460e-b6bf-4aba36083646" /> 
 <img width="300" height="200" alt="20260823_192953" src="https://github.com/user-attachments/assets/8ba35884-39f4-4ec2-9a01-51f93df22cbd" />
 <img width="300" height="200" alt="20260823_193008" src="https://github.com/user-attachments/assets/843db635-9908-476a-9588-5edd97bc4595" /> 
 <img width="300" height="400" alt="20260825_170812" src="https://github.com/user-attachments/assets/fb6d0b2c-f2bd-4c85-8426-e8847a7529d2" />
