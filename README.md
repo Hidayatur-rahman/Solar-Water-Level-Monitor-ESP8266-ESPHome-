@@ -4,7 +4,7 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 
 ## Features
 
-- **Water level sensing** using an HC-SR04 ultrasonic distance sensor
+- **Water level sensing** using an JSN-SR04 ultrasonic distance sensor
 - **Solar MPPT charging** via CN3791, with jumper-selectable input voltage (6V / 9V / 12V)
 - **Battery current & voltage monitoring** using an INA219 sensor
 - **1S Li-ion protection** (over-charge / over-discharge / over-current) using DW01A + FS8205A
@@ -23,7 +23,7 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 | Block | Component | Notes |
 |---|---|---|
 | MCU | ESP-12E (ESP8266) | Runs ESPHome |
-| Water sensor | HC-SR04 | 5V supply, echo signal stepped down to 3.3V via voltage divider |
+| Water sensor | JSN-SR04 | 5V supply, echo signal stepped down to 3.3V via voltage divider |
 | Current/voltage sensor | INA219 | I2C, monitors battery current (charge & discharge) |
 | Boost converter | MT3608 | Steps battery voltage (3.0–4.2V) up to 5V |
 | Solar charger | CN3791 | MPPT buck charger, up to 4A, input jumper-selectable for 6V/9V/12V panels |
@@ -36,8 +36,8 @@ A solar-powered water tank level monitoring system built around the ESP8266 (ESP
 |---|---|
 | I2C SDA (INA219) | GPIO4 |
 | I2C SCL (INA219) | GPIO5 |
-| HC-SR04 Trig | GPIO14 |
-| HC-SR04 Echo (via divider) | GPIO12 |
+| JSN-SR04 Trig | GPIO14 |
+| JSN-SR04 Echo (via divider) | GPIO12 |
 | Deep sleep wake | GPIO16 → RST (via solder jumper) |
 
 ## Solar Panel Voltage Selection
