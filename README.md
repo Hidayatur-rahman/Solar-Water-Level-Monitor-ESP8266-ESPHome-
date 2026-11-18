@@ -54,7 +54,7 @@ The CN3791 MPPT tracking voltage is set by closing one solder jumper on the boar
 ## Getting Started
 
 1. Flash the board with [ESPHome](https://esphome.io/), using the provided YAML configuration (`esphome/water-level-sensor.yaml`)
-2. Connect the HC-SR04, battery, and solar panel
+2. Connect the JSN-SR04, battery, and solar panel
 3. Set the solar jumper according to your panel's voltage
 4. Add the device to Home Assistant via the ESPHome integration
 
